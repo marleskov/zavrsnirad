@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body{background-image:url(images/gl_pozadina.jpg);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #000099;
+}
+
+#box{width:960px;  
+height:500px;
+margin:0 auto;
+}
+
+#logo{
+height:100px;
+}
+
+#promo{
+
+width:940px;
+height:40px;
+padding:10px;
+background-color:rgba(1,15,148,0.1);
+}
+
+#sddm
+{	
+	margin: 0;
+	padding: 0;
+	z-index: 30;
+}
+
+#sddm li
+{	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	width: 136px;
+	height:20px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;}
+
+#sddm li a:hover
+{	background: #49A3FF}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 11px arial;
+		width: 136px;
+		height:20px;}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF;}
+
+#sadrzaj{
+width:654px;
+padding:10px;
+float:left;
+}
+#desno{
+width:275px;
+height:auto;
+padding:5px;
+float:right; 
+border-left:solid #CCCCCC 1px;
+}
+#bottom{
+width:950px;
+height:40px;
+padding:5px;
+border-top:solid #CCCCCC 1px;
+background-color:#E5F4FE;
+clear:both;
+}
+.table_right{
+font-size:12px;
+}
+.table_sadrzaj{
+border:#000000 none 1px;
+}
+.slika {float:right;
+padding:5px;
+border: 0px;
+}
+.slika_index {float:left;
+padding:5px;
+border: 0px;
+}
+
+.height_sadrzaj{
+height:340px;
+}
+
+a:link{
+color:#0033CC;
+font-size:13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+color:#0033CC;
+font-size:13px;
+font-family:  Arial, Helvetica, sans-serif;
+font-style:italic;
+}
+a:visited{
+color:#0033CC;
+font-size:13px;
+font-family:  Arial, Helvetica, sans-serif;
+}
+
